@@ -45,8 +45,19 @@ public class Main {
 		}else {
 			System.out.println("v1 and v2 are equal");
 		}
+		
+		float students = 30.0f;
+		float rooms = 4.0f;
 
-
+		if (rooms > 0.0) {
+			System.out.println(students);
+			System.out.println(rooms);
+			float avg = students / rooms;
+		}
+			//this will throw a compilation error as
+			//avg does not exist outside the block
+			//System.out.println(avg);
+		
 	}
 
 }
